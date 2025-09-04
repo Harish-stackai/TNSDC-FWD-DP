@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harish | Fullstack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body data-theme="light">
+    <header>
+      <h1>Harish</h1>
+      <nav>
+        <div class="nav-links" id="nav-links">
+          <a href="#hero">Home</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#certificates">Certificates</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <span class="toggle-theme" id="theme-toggle">🌞</span>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+    <section class="hero" id="hero">
+      <div class="hero-box">
+        <h2>Hi, I'm Harish</h2>
+        <p class="typing" id="typing"></p>
+      </div>
+      <img src="images/Coding.gif" alt="Developer GIF" class="hero-gif" />
+    </section>
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><i class="devicon-html5-plain colored"></i> HTML</div>
+        <div class="skill-card"><i class="devicon-css3-plain colored"></i> CSS</div>
+        <div class="skill-card"><i class="devicon-javascript-plain colored"></i> JavaScript</div>
+        <div class="skill-card"><i class="devicon-bootstrap-plain colored"></i> Bootstrap</div>
+        <div class="skill-card"><i class="devicon-react-original colored"></i> React</div>
+        <div class="skill-card"><i class="devicon-c-plain colored"></i> C</div>
+        <div class="skill-card"><i class="devicon-cplusplus-plain colored"></i> C++</div>
+        <div class="skill-card"><i class="devicon-python-plain colored"></i> Python</div>
+        <div class="skill-card"><i class="devicon-java-plain colored"></i> Java</div>
+        <div class="skill-card"><i class="devicon-django-plain colored"></i> Django</div>
+        <div class="skill-card"><i class="devicon-mysql-plain colored"></i>SQL</div>
+        <div class="skill-card"><i class="devicon-mongodb-plain colored"></i> MongoDB</div>
+        <div class="skill-card"><i class="devicon-git-plain colored"></i> Git</div>
+        <div class="skill-card"><i class="devicon-github-original colored"></i> GitHub</div>
+      </div>
+    </section>
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Fullstack Booking System</h3>
+          <a href="https://github.com/Harish-stackai/Littlelemon" target="_blank" class="view-btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>CRUD-Application</h3>
+          <a href="https://github.com/Harish-stackai/CRUD-Application.git" target="_blank" class="view-btn">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Digital Portfolio</h3>
+          <a href="#hero" target="_blank" class="view-btn">View Project</a>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="certificates">
+      <h2>Certificates</h2>
+      <div class="certificates-grid">
+        <div class="certificate-card completed">
+          <h3>Meta Full Stack Developer</h3>
+          <p>Status: Completed ✅</p>
+          <p>Score: 88.66%</p>
+          <a href="certificates/Full-Stack.pdf" target="_blank" class="view-btn">View Certificate</a>
+        </div>
+        <div class="certificate-card in-progress">
+          <h3>Microsoft AI & ML</h3>
+          <p>Status: In Progress ⏳</p>
+          <button class="view-btn disabled" disabled>Not Available</button>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMessage" class="hidden"></p>
+    </section>
+    <footer class="section" id="socials">
+      <h2>Social Profiles</h2>
+      <div class="social-links">
+        <a href="https://github.com/Harish-stackai" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/harish._.no1" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:harishathlete50@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
